@@ -66,8 +66,8 @@ class ProductsPage extends StatelessWidget {
               onTap: () => _showToast(context, title),
               child: Container(
                 padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                decoration: BoxDecoration(color: Colors.yellow[700], borderRadius: BorderRadius.circular(12)),
-                child: const Text("Buy", style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold)),
+                decoration: BoxDecoration(color: const Color.fromARGB(255, 255, 186, 10), borderRadius: BorderRadius.circular(12)),
+                child: const Text("Buy", style: TextStyle(fontSize: 12, color: Colors.white)),
               ),
             ),
           ],
